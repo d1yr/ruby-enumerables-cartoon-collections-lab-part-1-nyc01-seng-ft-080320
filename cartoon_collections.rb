@@ -3,7 +3,10 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
   count = 0
-  char.each{|x|puts "Hello #{x}!"}
+  char.each{|x|puts "Hello #{x}!"
+    count +=1
+  }
+  
 end
 
 def list_dwarves(array)
